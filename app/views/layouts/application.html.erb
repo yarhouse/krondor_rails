@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KrondorRails</title>
+  <%= stylesheet_link_tag    "reset", :media => "all" %>
+  <%= stylesheet_link_tag    "style", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id="page">
+    <div class="banner">
+      <span alt="banner" ></span>
+      <div><h2 class="shogunsclan">Krondor Krew</h2><br />
+      <i class="maxrhode">The greatest in ninja hip-hop</i></div>
+    </div><!--end of banner-->
+    <div class="menu">
+      <ul>
+        <li><%= link_to "Main", '/' %></li>
+        <li><%= link_to "Ninjas", 'ninjas' %></li>
+        <li><%= link_to "Music", 'albums' %></li>
+      </ul>
+    </div>
+    <div id="container">
+
+      <%= yield %>
+
+      <div class="follow">
+        <a href="http://soundcloud.com/krondorkrew/sets" target="_blank" ><img src="/assets/soundcloud.png" alt="Soundcloud link" /></a>
+        <a href="http://www.facebook.com/krondorkrew" target="_blank" ><img src="/assets/facebook.png" alt="Facebook link" /></a>
+        <a href="http://twitter.com/krondorkrew" target="_blank" ><img src="/assets/twitter.png" alt="Twitter link" /></a>
+        <a href="http://www.youtube.com/krondorkrew" target="_blank" ><img src="/assets/youtube.png" alt="Youtube channel link" /></a>
+        <a href="http://itunes.apple.com/us/artist/krondor-krew/id304512915?uo=4" ><img src="/assets/itunes.png" alt="Itunes link" /></a>
+        <a href="http://thesixtyone.com/krondorkrew" target="_blank" ><img src="/assets/sixtyone.png" alt="The61 link" /></a>
+        <a href="http://www.last.fm/music/Krondor+Krew" target="_blank" ><img src="/assets/lastfm.png" alt="Last.fm link" /></a>
+        <a href="http://www.myspace.com/krondorkrew" target="_blank" ><img src="/assets/myspace.png" alt="Myspace link. Really?" /></a>
+        <a href="mailto:krondorkrew@gmail.com" target="_blank" ><img src="/assets/email.png" alt="Email Us" /></a>
+      </div>
+    </div><!--end of container-->
+    <div class="footer">
+      <p>&dagger; Krondor Krew 2002-<%= year_string(Time.now) %> &copy; &dagger;</p>
+      <span alt="footer"></span>
+    </div><!--end of endpage-->
+  </div><!--end of page-->
+  </body>
+</html>

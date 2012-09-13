@@ -1,0 +1,52 @@
+      <h2 class="section_header albums">Studio Albums</h2>
+      <!--6THROTHOTCS-->
+      <div class="albums">
+        <h3><%= @sixth.name %><br />(<%= @sixth.year %>)</h3>
+        <a href="music/The_6th_Rotation_(2009).rar">
+          <span class="sixth" alt="The 6th Rotation of the House of the Chaos Star" >Click here to download <%= @sixth.name %></span></a>
+        <ul>
+          <% @sixth.tracks.each do |track| %>
+            <li><%=track.title%></li>
+          <% end %>
+        </ul>
+      </div>
+      <!--5DC-->
+      <div class="albums">
+        <h3><%= @fifth.name %><br />(<%= @fifth.year %>)</h3>
+        <a href="music/Five_Deadly_Cuts_EP_(2008).rar"><span class="five" alt="Five Deadly Cuts EP" >Click here to download <%= @fifth.name %></span></a>
+        <ul>
+          <% @fifth.tracks.each do |track| %>
+            <li><%=track.title%></li>
+          <% end %>
+        </ul>
+      </div>
+
+      <h2 class="section_header extras">Extra Tracks</h2>
+      <div class="extras">
+        <p><a href="music/bsides/Krondor%20Krew%20-%20Death%20Machines%20(Masurao%20Remix).mp3">Death Machines (Masurao Remix)</a></p>
+        <audio controls="controls">
+        <source src="music/bsides/Krondor%20Krew%20-%20Death%20Machines%20(Masurao%20Remix).mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <div class="extras">
+        <p><a href="music/bsides/Krondor%20Krew%20-%20Don't%20Fuck%20with%20Us%20(jprime%20remix).mp3">Don't Fuck With Us (Jprime Remix)</a></p>
+        <audio controls="controls">
+        <source src="music/bsides/Krondor%20Krew%20-%20Don't%20Fuck%20with%20Us%20(jprime%20remix).mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <div class="extras">
+        <p><a href="music/bsides/Krondor%20Krew%20-%20Dont%20Fuck%20With%20Us%20(Masurao%20Remix).mp3">Don't Fuck With Us (Masurao Remix)</a></p>
+        <audio controls="controls">
+        <source src="music/bsides/Krondor%20Krew%20-%20Dont%20Fuck%20With%20Us%20(Masurao%20Remix).mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <div class="extras">
+        <p><a href="music/bsides/Krondor%20Krew%20-%20Ninja%20Masters%20(Shinobi%20Remix).mp3">Ninja Masters (Shinobi Remix)</a></p>
+        <audio controls="controls">
+        <source src="music/bsides/Krondor%20Krew%20-%20Ninja%20Masters%20(Shinobi%20Remix).mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>

@@ -1,0 +1,1027 @@
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	}
+body {
+	background:#000000;
+	color:black;
+	font-size:16px;
+	max-width: 1024px;
+	margin: 0 auto;
+	}
+a:link {
+	text-decoration:none;
+	color:#660000;
+	}
+a:visited {
+	text-decoration:none;
+	color:#660000;
+	}
+a:hover {
+	text-decoration:none;
+	color:red;
+	}
+img {border:0px;}
+
+@font-face {font-family: Japanesebrush;
+    src: url(fonts/JAPAB___.TTF);
+  }
+@font-face {font-family: Batik;
+    src: url(fonts/batik.ttf);
+  }
+@font-face {font-family: BOS;
+    src: url(fonts/BOOKOS.TTF);
+  }
+@font-face {font-family: destruc;
+    src: url(fonts/DESTRUCCION.ttf);
+  }
+@font-face {font-family: dirty_ego;
+    src: url(fonts/DIRTYEGO.TTF);
+  }
+@font-face {font-family: shogunsclan;
+    src: url(fonts/Shoguns_Clan.ttf);
+  }
+@font-face {font-family: maxrhode;
+    src: url(fonts/MAXRHODE.TTF);
+  }
+
+#page{
+	background:#FFFFFF;
+	float:left;
+	width:90%;
+	background-color:#fff;
+	margin:0% 5%;
+	border-left: solid .75em #990000;
+	border-right: solid .75em #990000;
+	}
+/* BANNER */
+div.banner{
+	width:100%;
+	float:left;
+	margin:0%;
+	border: solid blue 0px;
+	}
+.banner span{
+	content: url(/assets/banner.png);
+	float:left;
+	width: 100%;
+	}
+.banner div{
+	width:100%;
+	margin:-17.5% 2% 0% 0%;
+	float: right;
+	text-align: right;
+	}
+h2.shogunsclan{
+	font-family:shogunsclan;
+	font-size:4.5em;
+	color:#FFFFFF;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	margin-bottom: -1%;
+	}
+i.maxrhode{
+	font-family: maxrhode;
+	font-size:2.5em;
+	color:#CC0000;
+	letter-spacing:.03em;
+	margin-right: 5%;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+	}
+
+/* MENU */
+div.menu{float:left;width:100%;}
+.menu ul{
+	list-style-image: url(/assets/);
+	float: left;
+	width: 100%;
+}
+.menu li {
+	font-family: Japanesebrush;
+	font-size: 1.5em;
+	float:left;
+	margin:0% 0% 0% 17%;
+}
+
+#container{width:100%;padding-bottom:0%;}
+
+h2.section_header{
+	border-bottom: solid #993333 4px;
+	width:75%;
+	float:left;
+	margin:4% 0% 2% 1%;
+	font-family:destruc;
+	font-size:3.55em;
+	font-variant:small-caps;
+	letter-spacing:.03em;
+	}
+
+/* MAIN */
+div.main{
+	float:left;
+	width:100%;
+	margin:0% 0% 0% 0%;
+	padding:2% 3%;}
+.main p{
+	float:left;
+	font-family:Batik;
+	font-size:1.65em;
+	text-align: justify;
+	}
+
+/* NINJA */
+div.ninja_info{
+	float:left;
+	width:48%;
+	margin:1%;
+	padding:1% 0% 0% 0%;
+	border:solid 0px green;
+	}
+.ninja_info p{font-size:1em;font-family: BOS;margin: 0% 0%;}
+.ninja_info h3{
+	font-size:1.5em;
+	font-family: Japanesebrush;
+	margin:1% 0%;
+	}
+.ninja_info span{float:right;padding:1%; width:40%;}
+span.shin {content: url(/assets/shin_blade.jpg);}
+span.masu {content: url(/assets/masu_blade.jpg);}
+
+/* TRACKS */
+div.albums{
+	float:left;
+	width:48%;
+	margin:1%;
+	padding:1% 0% 0% 0%;
+	border: solid blue 0px;
+	}
+.albums h3{
+	float:left;
+	width:100%;
+	margin:0% 0% 0% 0%;
+	font-family:dirty_ego;
+	font-size:2.375em;
+	font-variant:small-caps;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	}
+span.sixth {content: url(/assets/6thR300.jpg);}
+span.five {content: url(/assets/FDC300.jpg);}
+.albums span{
+	float:left;
+	width:65%;
+	border: solid #ffffff 0px;
+	margin-bottom:1%;
+	}
+
+.albums ul{
+	width:30%;
+	float:left;
+	font-size:.80em;
+	font-family: BOS;
+	margin:0% 1%;
+	padding:0% 0%;
+	line-height:135%;
+	list-style-type: none;
+	}
+.albums li{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	}
+div.extras{
+	float:left;
+	width:100%;
+	margin:.5% 0% 0% 0%;
+	padding:0%;
+	border: solid 0px blue;
+	}
+.extras p{
+	float:left;
+	width:40%;
+	text-align: right;
+	margin:0% 3% 0% 0%;
+	font-family:dirty_ego;
+	font-size:2.375em;
+	font-variant:small-caps;
+	padding:0%;
+	}
+
+/* Follow */
+div.follow{width:100%;float:left;text-align:center;margin-top: 5%;}
+.follow img{
+	padding:2%;
+	}
+.follow img:hover{
+	padding:2%;
+	position:relative;
+	animation:bounce .6s;
+	-moz-animation:bounce .6s; /* Firefox */
+	-webkit-animation:bounce .6s; /* Safari and Chrome */
+	}
+@keyframes bounce{
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:0px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+	}
+@-moz-keyframes bounce{ /* Firefox */
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:0px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+	}
+@-webkit-keyframes bounce{ /*Safari and Chrome */
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:0px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+	}
+
+/* FOOTER */
+div.footer{
+	width:100%;
+	float:left;
+	}
+.footer p{
+	float: left;
+	width: 100%;
+	text-align:center;
+	letter-spacing:.2em;
+	border-top: solid 2px #993333;
+	border-bottom: solid 2px #993333;
+	}
+.footer span{
+	content: url(/assets/bottom.png);
+	float: left;
+	width: 100%;
+	}
+
+@media (min-width: 740px) and (max-width: 899px){
+
+	#page{
+		background:#FFFFFF;
+		float:left;
+		width:90%;
+		background-color:#fff;
+		margin:0% 5%;
+		border-left: solid .5em #990000;
+		border-right: solid .5em #990000;
+		}
+
+	/* BANNER */
+	div.banner{
+		width:100%;
+		float:left;
+		margin:0%;
+		border: solid blue 0px;
+		}
+	.banner span{content: url(/assets/banner.png);float:left;width: 100%;}
+	.banner div{
+		width:100%;
+		margin:-19.5% 2% 0% 0%;
+		float: right;
+		text-align: right;
+		}
+	h2.shogunsclan{
+		font-family:shogunsclan;
+		font-size:3.75em;
+		color:#FFFFFF;
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		}
+	i.maxrhode{
+		font-family: maxrhode;
+		font-size:2.5em;
+		color:#CC0000;
+		letter-spacing:.03em;
+		margin-right: 5%;
+		text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+		}
+	/* MENU */
+	div.menu{
+		width:100%;
+		float: left;
+		margin:1% 0% 4% 0%;
+		}
+	.menu ul{
+		list-style-image: url(/assets/);
+		float: left;
+		width: 100%;
+		}
+	.menu li {
+		font-family: Japanesebrush;
+		font-size: 1.5em;
+		float: left;
+		margin:0% 5% ;
+		}
+
+	#container{width:100%;padding-bottom:0%;}
+
+	h2.section_header{
+		border-bottom: solid #993333 4px;
+		width:75%;
+		float:left;
+		margin:1% 0% 0% 1%;
+		font-family:destruc;
+		font-size:3.25em;
+		font-variant:small-caps;
+		letter-spacing:.03em;
+		}
+
+	/* MAIN */
+	div.main{
+		float:left;
+		width:100%;
+		margin:0% 0% 0% 0%;
+		padding:2% 1%;}
+	.main p{
+		float:left;
+		font-family:Batik;
+		font-size:1.1em;
+		text-align: justify;
+		}
+
+	/* NINJA */
+	div.ninja_info{
+		float:left;
+		width:48%;
+		margin:1%;
+		padding:1% 0% 0% 0%;
+		border:solid 0px green;
+		}
+		.ninja_info p{font-size:1em;font-family: BOS;margin: 0% 0%;}
+		.ninja_info h3{
+			font-size:1.25em;
+			font-family: Japanesebrush;
+			margin:1% 0%;
+			}
+		.ninja_info img{float:right;padding:1%;margin:0% 1%; width:50%;}
+
+	/* TRACKS */
+	div.albums{
+		float:left;
+		width:48%;
+		margin:1%;
+		padding:1% 0% 0% 0%;
+		border: solid blue 0px;
+		}
+	.albums h3{
+		float:left;
+		width:100%;
+		margin:0% 0% 0% 0%;
+		font-family:dirty_ego;
+		font-size:2.1em;
+		font-variant:small-caps;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		}
+	.albums span{
+		float:left;
+		width:100%;
+		border: solid #ffffff 0px;
+		margin-bottom:1%;
+		}
+	.albums ul{
+		width:100%;
+		float:left;
+		font-size:.91em;
+		font-family: BOS;
+		margin:0% 1%;
+		padding:0% 0%;
+		line-height:135%;
+		list-style-type: none;
+		}
+	.albums li{
+		margin-left: 1.5%;
+		float:left;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		}
+	.albums li:after{content: ", ";}
+	.albums li:last-child:after { content: " "; }
+	div.extras{
+		float:left;
+		width:100%;
+		margin:.5% 0% 0% 0%;
+		padding:0%;
+		border: solid 0px blue;
+		}
+	.extras p{
+		float:left;
+		width:50%;
+		text-align: right;
+		margin:0% 3% 0% 0%;
+		font-family:dirty_ego;
+		font-size:2em;
+		font-variant:small-caps;
+		padding:0%;
+		}
+
+
+	/* Follow */
+	div.follow{width:100%;float:left;text-align:center}
+	.follow img{
+		width:10%;
+		padding:2%;
+		}
+	.follow img:hover{
+		padding:2%;
+		position:relative;
+		animation: none;
+		-moz-animation: none; /* Firefox */
+		-webkit-animation: none; /* Safari and Chrome */
+		}
+		@keyframes bounce{
+			0%   {top:0px;}
+			25%  {top:-20px;}
+			50%  {top:0px;}
+			75%  {top:-10px;}
+			100% {top:0px;}
+			}
+		@-moz-keyframes bounce{ /* Firefox */
+			0%   {top:0px;}
+			25%  {top:-20px;}
+			50%  {top:0px;}
+			75%  {top:-10px;}
+			100% {top:0px;}
+			}
+		@-webkit-keyframes bounce{ /*Safari and Chrome */
+			0%   {top:0px;}
+			25%  {top:-20px;}
+			50%  {top:0px;}
+			75%  {top:-10px;}
+			100% {top:0px;}
+			}
+
+	/* FOOTER */
+	div.footer{
+		width:100%;
+		float:left;
+		}
+		.footer p{
+			float: left;
+			width: 100%;
+			text-align:center;
+			letter-spacing:.2em;
+			border-top: solid 2px #993333;
+			border-bottom: solid 2px #993333;
+			}
+		.footer span{
+			float: left;
+			width: 100%;
+			}
+}
+@media (min-width: 570px) and (max-width: 739px){
+
+	#page{
+	background:#FFFFFF;
+	float:left;
+	width:90%;
+	background-color:#fff;
+	margin:0% 5%;
+	border-left: solid .5em #990000;
+	border-right: solid .5em #990000;
+	}
+
+	/* BANNER */
+	div.banner{
+	width:100%;
+	float:left;
+	margin:0%;
+	border: solid blue 0px;
+	}
+	.banner span{content: url(/assets/banner.png);float:left;width: 100%;}
+	.banner div{
+	width:100%;
+	margin:-19.5% 2% 0% 0%;
+	float: right;
+	text-align: right;
+	}
+	h2.shogunsclan{
+	font-family:shogunsclan;
+	font-size:3.25em;
+	color:#FFFFFF;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	margin-bottom: -4%;
+	}
+	i.maxrhode{
+	font-family: maxrhode;
+	font-size:2.05em;
+	color:#CC0000;
+	letter-spacing:.03em;
+	margin-right: 5%;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+	}
+	/* MENU */
+	div.menu{
+	margin:2% 0% 4% 0%;
+	}
+	.menu li {
+	font-size: 1.25em;
+	margin:0% 0% 0% 8%;
+	}
+	#container{width:100%;padding-bottom:0%;}
+
+	h2.section_header{
+	border-bottom: solid #993333 4px;
+	width:75%;
+	float:left;
+	margin:1% 0% 0% 1%;
+	font-family:destruc;
+	font-size:3.25em;
+	font-variant:small-caps;
+	letter-spacing:.03em;
+	}
+
+	/* MAIN */
+	div.main{
+	float:left;
+	width:100%;
+	margin:0% 0% 0% 0%;
+	padding:2% 1%;}
+	.main p{
+	float:left;
+	font-family:Batik;
+	font-size:1.1em;
+	text-align: justify;
+	}
+
+	/* NINJA */
+	div.ninja_info{
+	float:left;
+	width:100%;
+	margin:1%;
+	padding:1% 0% 0% 0%;
+	border:solid 0px green;
+	}
+	.ninja_info p{font-size:1em;font-family: BOS;margin: 0% 0%;}
+	.ninja_info h3{
+	font-size:1.25em;
+	font-family: Japanesebrush;
+	margin:1% 0%;
+	}
+	.ninja_info img{float:right;padding:1%;margin:0% 1%; width:35%;}
+
+	/* TRACKS */
+	div.albums{
+	float:left;
+	width:95%;
+	margin:1%;
+	padding:1% 0% 0% 0%;
+	border: solid blue 0px;
+	}
+	.albums h3{
+	float:left;
+	width:100%;
+	margin:0% 0% 0% 0%;
+	font-family:dirty_ego;
+	font-size:2.1em;
+	font-variant:small-caps;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	}
+	.albums span{
+	float:left;
+	width:60%;
+	border: solid #ffffff 0px;
+	margin-bottom:1%;
+	}
+	.albums ul{
+	width:35%;
+	float:left;
+	font-size:.91em;
+	font-family: BOS;
+	margin:0% 1%;
+	padding:0% 0%;
+	line-height:135%;
+	list-style-type: none;
+	}
+	.albums li{
+	margin-left:0%;
+	float:none;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	}
+	.albums li:after{content:none;}
+	.albums li:last-child:after { content:none; }
+	div.extras{
+	float:left;
+	width:100%;
+	margin:.5% 0% 0% 0%;
+	padding:0%;
+	border: solid 0px blue;
+	}
+	.extras p{
+	float:left;
+	width:50%;
+	text-align: right;
+	margin:0% 3% 0% 0%;
+	font-family:dirty_ego;
+	font-size:1.75em;
+	font-variant:small-caps;
+	padding:0%;
+	}
+	audio {width: 45%;}
+
+
+	/* Follow */
+	div.follow{width:100%;float:left;text-align:center}
+	.follow img{
+	width:10%;
+	padding:2%;
+	}
+	.follow img:hover{
+	padding:2%;
+	position:relative;
+	animation: none;
+	-moz-animation: none; /* Firefox */
+	-webkit-animation: none; /* Safari and Chrome */
+	}
+	@keyframes bounce{
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:0px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+	}
+	@-moz-keyframes bounce{ /* Firefox */
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:0px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+	}
+	@-webkit-keyframes bounce{ /*Safari and Chrome */
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:0px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+	}
+
+	/* FOOTER */
+	div.footer{
+	width:100%;
+	float:left;
+	}
+	.footer p{
+	float: left;
+	width: 100%;
+	text-align:center;
+	letter-spacing:.2em;
+	border-top: solid 2px #993333;
+	border-bottom: solid 2px #993333;
+	}
+	.footer span{
+	float: left;
+	width: 100%;
+	}
+}
+@media (max-width: 569px){
+
+	#page{
+		border-left: solid .5em #990000;
+		border-right: solid .5em #990000;
+		}
+	/* BANNER */
+	h2.shogunsclan{font-size:2.5em;margin-bottom: -4%}
+	i.maxrhode{
+		font-family: Georgia;
+		font-size:1.15em;
+		margin-right: 0%;
+		text-shadow: none;
+		}
+
+	/* MENU */
+	div.menu{float:left;width:100%;}
+	.menu ul{
+		list-style-image: url(/assets/);
+		float: left;
+		width: 100%;
+		}
+	.menu li {
+		font-family: Japanesebrush;
+		font-size: 1em;
+		float:left;
+		margin:0% 0% 0% 7%;
+		}
+
+	#container{width:100%;padding-bottom:0%;}
+
+	h2.section_header{
+		width:90%;
+		margin:3% 0% 0% 1%;
+		font-size:2.15em;
+		}
+
+	/* MAIN */
+	div.main{}
+	.main p{font-size:1em;font-family: Georgia;}
+
+	/* NINJA */
+	div.ninja_info{width:100%;}
+	.ninja_info p{font-size:.91em;}
+	.ninja_info h3{font-size:1.35em;}
+	.ninja_info img{width:10em;}
+
+	/* TRACKS */
+	div.albums{width:100%;}
+	.albums h3{font-size:2em;padding:0% 2%;}
+	.albums span{width:15em;}
+	.albums ul{
+		font-size:.91em;
+		line-height:135%;
+		list-style-type: none;
+		}
+	.albums li{
+		margin-left: 1.5%;
+		float:left;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		}
+	.albums p{
+		width:100%;
+		float:left;
+		font-size:.75em;
+		font-family: BOS;
+		margin:3% 2%;
+		padding:0% 0%;
+		}
+	.extras p{
+		width:100%;
+		text-align: left;
+		font-size:2em;
+		}
+	audio {display:none;}
+
+	/* Follow */
+	div.follow{width:100%;float:left;text-align:center}
+	.follow img{
+		padding:2%;
+		}
+	.follow img:hover{
+		padding:2%;
+		animation:none;
+		-moz-animation:none; /* Firefox */
+		-webkit-animation:none; /* Safari and Chrome */
+		}
+
+	/* FOOTER */
+	div.footer{
+		width:100%;
+		float:left;
+		}
+	.footer p{
+		float: left;
+		width: 100%;
+		text-align:center;
+		letter-spacing:.2em;
+		border-top: solid 2px #993333;
+		border-bottom: solid 2px #993333;
+		}
+	.footer span{
+		float: left;
+		width: 100%;
+		}
+}
+@media (max-width: 569px) and (orientation: portrait){
+	div.banner{
+		background-color: black;
+		border-bottom: solid .5em #990000;
+		}
+	.banner div{
+		padding:2% 0%;
+		margin:-16% 0% 0% 0%;
+		float: right;
+		text-align: center;
+		}
+	h2.shogunsclan{font-size:2.25em;margin-bottom: -6%}
+	i.maxrhode{
+		font-family: Georgia;
+		font-size:1em;
+		margin-right: 0%;
+		}
+
+	.albums span{width:95%;}
+	.albums ul{
+		display: inline;
+		width:100%;
+		font-size:.91em;
+		font-family: BOS;
+		margin:0% 0%;
+		padding:0% 1%;
+		line-height:1.1em;
+		list-style-type: none;
+		}
+	.albums li{
+		margin-left: 1.5%;
+		float:left;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		}
+	.albums li:after{content: ", ";}
+	.albums li:last-child:after{content: " ";}
+	.extras p{
+		font-size:1.75em;
+		}
+	.follow img{width:20%;}
+	.footer p{font-size: .85em;}
+}
+@media (max-width: 350px){
+	div.banner{
+		background-color: black;
+		border-bottom: solid .5em #990000;
+		}
+	.banner div{
+		padding:2% 0%;
+		margin:-16% 0% 0% 0%;
+		float: right;
+		text-align: center;
+		}
+		/* MENU */
+	div.menu{float:left;width:100%;}
+	.menu ul{
+		list-style-image: url(/assets/);
+		float: left;
+		width:100%;
+		}
+	.menu li {
+		font-family: Georgia;
+		font-size: 1.5em;
+		margin:1% 0% 3% 1.5%;
+		float: left;
+		width:30%;
+		}
+	.menu li:last-child{float: right;}
+
+	.albums ul{
+		display: inline;
+		width:100%;
+		font-size:.91em;
+		font-family: BOS;
+		margin:0% 0%;
+		padding:0% 1%;
+		line-height:1.1em;
+		list-style-type: none;
+		}
+	.albums li{
+		margin-left: 1.5%;
+		float:left;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		}
+	.albums li:after{content: ", ";}
+	.albums li:last-child:after{content: " ";}
+	.follow img{width:20%;}
+	.footer p{font-size: .85em;letter-spacing:0em;}
+}
+@media (max-width: 250px) {
+	body {background:white;}
+
+	#page{
+		background:transparent;
+		float:left;
+		width:90%;
+		background-color:transparent;
+		margin:0% 5%;
+		border-left: solid 0em #990000;
+		border-right: solid 0em #990000;
+		}
+
+	/* BANNER */
+	div.banner{
+		background:transparent;
+		width:100%;
+		float:right;
+		margin:0%;
+
+		}
+		.banner span{content: url(/assets/banner.png);display: none;}
+		.banner div{
+			width:100%;
+			margin:1% 0% 0% 0%;
+			float: left;
+			text-align: right;
+			}
+		h2.shogunsclan{
+			font-family:Arial;
+			font-size:1.5em;
+			color:black;
+			text-shadow: none;
+			margin-bottom: -8%
+			}
+		i.maxrhode{
+			font-family: Arial;
+			font-size:.95em;
+			color:black;
+			letter-spacing:0em;
+			margin-right: 0%;
+			}
+
+
+	h2.section_header{
+		border-bottom: solid #993333 4px;
+		width:75%;
+		float:left;
+		margin:1% 0% 0% 1%;
+		font-family:Arial;
+		font-size:1.25em;
+		font-variant:small-caps;
+		letter-spacing:.03em;
+		}
+
+	/* MAIN */
+	div.main{display:inline;}
+	.main p{
+		float:left;
+		font-family:Arial;
+		font-size:.95em;
+		text-align: left;
+		}
+
+	/* NINJA */
+
+	.ninja_info p{font-size:.9em;font-family: Arial;margin: 0% 0%;}
+	.ninja_info h3{
+		font-size:1.25em;
+		font-family: Georgia;
+		margin:1% 0%;
+		}
+	.ninja_info span{display: none;}
+
+		/* TRACKS */
+		div.albums{
+			float:left;
+			width:100%;
+			margin:0%;
+			padding:1%;
+			border: solid blue 0px;
+			}
+		.albums h3{
+			float:left;
+			width:100%;
+			margin:0% 0% 0% 0%;
+			font-family:Arial;
+			font-size:1em;
+			font-variant:small-caps;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			white-space:nowrap;
+			}
+		.albums span{
+			float:left;
+			width:90%;
+			border: solid #ffffff 0px;
+			margin:1%;
+			}
+		.albums ul{display: none;}
+		.albums p{display: none;}
+		div.extras{
+			float:left;
+			width:100%;
+			margin:.5% 0% 0% 0%;
+			padding:0%;
+			border: solid 0px blue;
+			}
+		.extras p{
+			float:left;
+			width:100%;
+			text-align: left;
+			margin:5% 0% 0% 0%;
+			font-family:Arial;
+			font-size:1.15em;
+			font-variant:none;
+			padding:0%;
+			}
+		audio {display: none;}
+		/* Follow */
+		div.follow{width:100%;float:left;text-align:center}
+		.follow img{width:30%;padding:5%}
+		.follow img:hover{width:30%;padding:5%}
+
+		/* FOOTER */
+		div.footer{
+			width:100%;
+			float:left;
+			}
+			.footer p{
+				float: left;
+				width: 100%;
+				text-align:center;
+				letter-spacing:0em;
+				border-top: solid 2px #993333;
+				border-bottom: solid 2px #993333;
+				}
+			.footer span{display: none;}
+	}
